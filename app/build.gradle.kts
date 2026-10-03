@@ -1,9 +1,4 @@
 plugins {
-    alias(libs.plugins.android.application) apply false
-}
-
-// Or if using direct ID:
-plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
 }
